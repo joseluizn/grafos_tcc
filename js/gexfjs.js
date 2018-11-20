@@ -758,8 +758,10 @@ function findAngle(sx, sy, ex, ey) {
 
 function drawArrowhead(contexte, locx, locy, angle, sizex, sizey) {
     tmp = contexte.lineWidth;
-    var hx = sizex / 10;
-    var hy = sizey / 10;
+    var sizex = sizex/2;
+    var sizey = sizey/2;
+    var hx = sizex / 2;
+    var hy = sizey / 2;
     contexte.translate((locx ), (locy));
     contexte.rotate(angle);
     contexte.translate(-hx,-hy);
