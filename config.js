@@ -1,20 +1,18 @@
 /*** USE THIS FILE TO SET OPTIONS ***/
 
-GexfJS.setParams({
-    graphFile : "miserables.gexf",
+setParams({
+    graphFile : "desapropriacao.gexf",
         /*
             The GEXF file to show ! -- can be overriden by adding
             a hash to the document location, e.g. index.html#celegans.gexf
-            GEXF files can now be replaced by pre-processed JSON files (use gexf2json.py)
-            for faster load time
         */
 	showEdges : true,
         /*
-            Default state of the "show edges" button. Set to null to disable button.
+            Default state of the "show edges" button
         */
     useLens : false,
         /*
-            Default state of the "use lens" button. Set to null to disable button.
+            Default state of the "use lens" button
         */
     zoomLevel : 0,
         /*
@@ -30,10 +28,9 @@ GexfJS.setParams({
             Change this parameter for wider or narrower edges
             this setting can't be changed from the User Interface
         */
-    minEdgeWidth : 1,
-    maxEdgeWidth : 50,
+    minEdgeWidth : 20,
+    maxEdgeWidth : 20,
     textDisplayThreshold: 9,
-    fontSizeFactor : 1,
     nodeSizeFactor : 1,
         /*
             Change this parameter for smaller or larger nodes
