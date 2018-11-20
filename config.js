@@ -1,7 +1,7 @@
 /*** USE THIS FILE TO SET OPTIONS ***/
 
 setParams({
-    graphFile : "miserables.gexf",
+    graphFile : "desapropriacao.gexf",
         /*
             The GEXF file to show ! -- can be overriden by adding
             a hash to the document location, e.g. index.html#celegans.gexf
@@ -28,8 +28,8 @@ setParams({
             Change this parameter for wider or narrower edges
             this setting can't be changed from the User Interface
         */
-    minEdgeWidth : 1,
-    maxEdgeWidth : 50,
+    minEdgeWidth : 20,
+    maxEdgeWidth : 20,
     textDisplayThreshold: 9,
     nodeSizeFactor : 1,
         /*
